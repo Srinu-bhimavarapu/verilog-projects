@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# Allow Git to traverse these folders
+!src/
+!testbench/
+
+# Track Verilog files
+!src/**/*.v
+!testbench/**/*.v
+
+# Keep essential files
+!.gitignore
+!README.md
